@@ -1,0 +1,334 @@
+"filename", "language", "C++", "Markdown", "C", "PostCSS", "Python", "Batch", "HTML", "JSON", "PowerShell", "JavaScript", "XML", "pip requirements", "Properties", "Database", "CMake", "YAML", "Ini", "comment", "blank", "total"
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\AutoEncoder1.py", "Python", 0, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 38
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\AutoEncoder2.py", "Python", 0, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 36
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\Detect_AE.py", "Python", 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 25, 67
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\Detect_PCA.py", "Python", 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 20, 59
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\Encoder.py", "Python", 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 19, 54
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\PCA1.py", "Python", 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\PCA2.py", "Python", 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\Preprocess1.py", "Python", 0, 0, 0, 0, 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 43, 125
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\mvtest.py", "Python", 0, 0, 0, 0, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 62, 63, 256
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\mvtest2.py", "Python", 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 40, 142
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\preprocess2.py", "Python", 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19, 56
+"c:\Users\sd23097\Desktop\Tirobot_works\AnormallyDetect\python\supertest.py", "Python", 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9
+"c:\Users\sd23097\Desktop\Tirobot_works\GCI\telecom.ipynb", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\GCI\telecom.sqlite3", "Database", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 780147, 0, 0, 0, 0, 4016, 784163
+"c:\Users\sd23097\Desktop\Tirobot_works\KantoNatu2023\kantonatsurobo2023_omni-main\PID.cpp", "C++", 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 40
+"c:\Users\sd23097\Desktop\Tirobot_works\KantoNatu2023\kantonatsurobo2023_omni-main\PID.h", "C++", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\sd23097\Desktop\Tirobot_works\KantoNatu2023\kantonatsurobo2023_omni-main\README.md", "Markdown", 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\KantoNatu2023\kantonatsurobo2023_omni-main\kantonatsurobo2023_omni.ino", "C++", 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 38, 232
+"c:\Users\sd23097\Desktop\Tirobot_works\KantoNatu2023\kantonatsurobo2023_omni-main\motor.cpp", "C++", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 26
+"c:\Users\sd23097\Desktop\Tirobot_works\KantoNatu2023\kantonatsurobo2023_omni-main\motor.hpp", "C++", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\KantoNatu2023\multifunction.ino", "C++", 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 54, 55, 255
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_R1\NHK_R1.ino", "C++", 527, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 89, 640
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_R1\PID.cpp", "C++", 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 40
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_R1\PID.h", "C++", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_R1\README.md", "Markdown", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_R1\rad_pid.cpp", "C++", 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 46
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_R1\rad_pid.h", "C++", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rad_pid\NHK_rad_pid.ino", "C++", 224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 44, 290
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rad_pid\PID.cpp", "C++", 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 40
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rad_pid\PID.h", "C++", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rad_pid\README.md", "Markdown", 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rad_pid\motor.cpp", "C++", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 26
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rad_pid\motor.hpp", "C++", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rad_pid\rad_pid.cpp", "C++", 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 46
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rad_pid\rad_pid.h", "C++", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rpm_pid\NHK_rpm_pid.ino", "C++", 160, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 42, 220
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rpm_pid\PID.cpp", "C++", 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 40
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rpm_pid\PID.h", "C++", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rpm_pid\README.md", "Markdown", 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rpm_pid\motor.cpp", "C++", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 26
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\NHK_rpm_pid\motor.hpp", "C++", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\README.md", "Markdown", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 27
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\README.md", "Markdown", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\ball_camera\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\ball_camera\detector.py", "Python", 0, 0, 0, 0, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 132
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\config\params.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 1, 11
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\launch\ball_camera.launch.py", "Python", 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 43
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\models\README.md", "Markdown", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\models\yolov8l.pt", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1059289, 0, 0, 0, 0, 0, 0, 0, 8856, 1068145
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\models\yolov8m.pt", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 520050, 0, 0, 0, 0, 0, 0, 0, 4022, 524072
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\models\yolov8n.pt", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 43044, 0, 0, 0, 0, 0, 0, 0, 229, 43273
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\package.xml", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 5, 26
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\setup.cfg", "Ini", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 5
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera\setup.py", "Python", 0, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 31
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera_msgs\CMakeLists.txt", "CMake", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 0, 0, 0, 6, 30
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\ball_camera_msgs\package.xml", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\CMakeLists.txt", "CMake", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 15, 102
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\config\params.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\include\detector\clusterer.h", "C++", 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 39
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\include\detector\detector.h", "C++", 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 64
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\include\detector\filter.h", "C++", 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 35
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\include\detector\visualizer.h", "C++", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 20
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\package.xml", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 5, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\src\clusterer.cpp", "C++", 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 42
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\src\detector.cpp", "C++", 192, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 232
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\src\filter.cpp", "C++", 215, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 29, 248
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\src\nodes\detector_node.cpp", "C++", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 11
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\src\nodes\filter_node.cpp", "C++", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 11
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\src\nodes\visualizer_node.cpp", "C++", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 11
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\detector\src\visualizer.cpp", "C++", 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 76
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\launch_bundle\CMakeLists.txt", "CMake", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 6, 31
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\launch_bundle\config\ball_camera.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 1, 15
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\launch_bundle\config\detector.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\launch_bundle\config\merger.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 0, 1, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\launch_bundle\launch\obstacles_detection.launch.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 0, 0, 7, 43
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\launch_bundle\package.xml", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\lidar_controller\lidar_controller\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\lidar_controller\lidar_controller\controller.py", "Python", 0, 0, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 50
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\lidar_controller\package.xml", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\lidar_controller\setup.cfg", "Ini", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 5
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\lidar_controller\setup.py", "Python", 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 26
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\lidar_controller\test\test_copyright.py", "Python", 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 4, 26
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\lidar_controller\test\test_flake8.py", "Python", 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 4, 26
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\lidar_controller\test\test_pep257.py", "Python", 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 4, 24
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\merger\CMakeLists.txt", "CMake", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 51, 0, 0, 0, 9, 60
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\merger\config\params.yaml", "YAML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 0, 1, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\merger\include\merger\merger.h", "C++", 53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 64
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\merger\package.xml", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\merger\src\merger.cpp", "C++", 117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 150
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\obstacle_msgs\CMakeLists.txt", "CMake", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 6, 33
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\obstacle_msgs\package.xml", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\serial_bridge\CMakeLists.txt", "CMake", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 0, 0, 0, 8, 47
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\serial_bridge\arduino\arduino.ino", "C++", 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 61
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\serial_bridge\include\serial_bridge\bridge.h", "C++", 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 62
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\serial_bridge\package.xml", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\sd23097\Desktop\Tirobot_works\NHK2024\gakurobo-ws-master\src\serial_bridge\src\bridge.cpp", "C++", 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 100
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Scripts\Activate.ps1", "PowerShell", 0, 0, 0, 0, 0, 0, 0, 0, 108, 0, 0, 0, 0, 0, 0, 0, 0, 360, 35, 503
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Scripts\activate.bat", "Batch", 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 35
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Scripts\deactivate.bat", "Batch", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 23
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Scripts\fixup_pubsub_v1_keywords.py", "Python", 0, 0, 0, 0, 156, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 24, 214
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Scripts\pywin32_postinstall.py", "Python", 0, 0, 0, 0, 583, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 104, 97, 784
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Scripts\pywin32_testall.py", "Python", 0, 0, 0, 0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 21, 125
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\credentials.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\tokens\100529591481232043303token.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\tokens\105125872991741815222token.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\tokens\106358438524995564112token.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\tokens\110298044136430036008token.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\tokens\112830785527648003046token.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\tokens\113770400483189126309token.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\tokens\test_token.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\OAuth\tokens\token.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\Tiboard\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\Tiboard\asgi.py", "Python", 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 5, 17
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\Tiboard\settings.py", "Python", 0, 0, 0, 0, 116, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 45, 192
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\Tiboard\urls.py", "Python", 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 4, 32
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\Tiboard\wsgi.py", "Python", 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 5, 17
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\admin.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\apps.py", "Python", 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\forms.py", "Python", 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\migrations\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\models.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\tests.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\urls.py", "Python", 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\dash_board\views.py", "Python", 0, 0, 0, 0, 103, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 34, 148
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\db.sqlite3", "Database", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1128, 0, 0, 0, 0, 92, 1220
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\delete_db_taeble.py", "Python", 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 14
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\delete_taskboard.py", "Python", 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 7, 33
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\functions\classroom.py", "Python", 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 51
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\functions\context_processors.py", "Python", 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 21
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\functions\database.py", "Python", 0, 0, 0, 0, 97, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 110
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\functions\function.py", "Python", 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 15, 123
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\manage.py", "Python", 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 23
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\mockup_score.html", "HTML", 0, 0, 0, 0, 0, 0, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 7, 78
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\not_in_use\GCAPItest.py", "Python", 0, 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 106, 22, 235
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\not_in_use\for_update_data.py", "Python", 0, 0, 0, 0, 157, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 37, 202
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\admin.py", "Python", 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\apps.py", "Python", 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\forms.py", "Python", 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\management\commands\create_threads.py", "Python", 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 16
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\migrations\0001_initial.py", "Python", 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 46
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\migrations\0002_alter_post_author.py", "Python", 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\migrations\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\models.py", "Python", 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 37
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\templatetags\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\templatetags\custom_filters.py", "Python", 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 11
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\tests.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\urls.py", "Python", 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\question_board\views.py", "Python", 0, 0, 0, 0, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 18, 114
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\requirements.txt", "pip requirements", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 173, 0, 0, 0, 0, 0, 0, 0, 173
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score.css", "PostCSS", 0, 0, 0, 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 13, 97
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 71, 0, 0, 0, 0, 0, 0, 0, 8, 14, 93
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score_board\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score_board\admin.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score_board\apps.py", "Python", 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score_board\migrations\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score_board\models.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score_board\tests.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score_board\urls.py", "Python", 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\score_board\views.py", "Python", 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 16
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\base\script.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 0, 0, 0, 0, 0, 0, 0, 7, 8, 54
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\base\script2.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1, 6
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\base\styles.css", "PostCSS", 0, 0, 0, 257, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 54, 317
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\question_board\styles.css", "PostCSS", 0, 0, 0, 388, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 73, 476
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\question_board\thread_detail_part2.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 276, 0, 0, 0, 0, 0, 0, 0, 20, 61, 357
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\question_board\thread_detail_script.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 265, 0, 0, 0, 0, 0, 0, 0, 17, 70, 352
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\question_board\thread_detail_script2.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 277, 0, 0, 0, 0, 0, 0, 0, 22, 59, 358
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\task_board\data.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 8, 40
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\task_board\index_script.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 422, 0, 0, 0, 0, 0, 0, 0, 40, 97, 559
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\task_board\index_styles.css", "PostCSS", 0, 0, 0, 125, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 148
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\common_script.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 2, 4, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\common_style.css", "PostCSS", 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\sidebar_func.css", "PostCSS", 0, 0, 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 36
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\sidebar_func.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 84, 0, 0, 0, 0, 0, 0, 0, 9, 21, 114
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\taskbar_func.css", "PostCSS", 0, 0, 0, 140, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 166
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\taskbar_func.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 315, 0, 0, 0, 0, 0, 0, 0, 23, 70, 408
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\test.css", "PostCSS", 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\thread_func.css", "PostCSS", 0, 0, 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 9, 66
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\thread_func.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 47, 0, 0, 0, 0, 0, 0, 0, 23, 12, 82
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\timetable_func.css", "PostCSS", 0, 0, 0, 142, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23, 170
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\static\widgets_test\timetable_func.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 331, 0, 0, 0, 0, 0, 0, 0, 28, 78, 437
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\admin.py", "Python", 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\apps.py", "Python", 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 12
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\migrations\0001_initial.py", "Python", 0, 0, 0, 0, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 80
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\migrations\0002_rename_course_id_coursework_course_and_more.py", "Python", 0, 0, 0, 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6, 37
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\migrations\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\models.py", "Python", 0, 0, 0, 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 69
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\signals.py", "Python", 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\tests.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\update.py", "Python", 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 7, 20
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\urls.py", "Python", 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\utils.py", "Python", 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 19
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\task_board\views.py", "Python", 0, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 26
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\base.html", "HTML", 0, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 79
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\base_old.html", "HTML", 0, 0, 0, 0, 0, 0, 106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 116
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\dash_board\frontpage.html", "HTML", 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\dash_board\login.html", "HTML", 0, 0, 0, 0, 0, 0, 78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 89
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\header.html", "HTML", 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 47
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\home.html", "HTML", 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 23
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\menu-button.html", "HTML", 0, 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 23
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\mypage\index.html", "HTML", 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\question_board\index.html", "HTML", 0, 0, 0, 0, 0, 0, 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 16, 101
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\question_board\thread_detail.html", "HTML", 0, 0, 0, 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 132
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\score_board\index.html", "HTML", 0, 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 47
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\task_board\index.html", "HTML", 0, 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 50
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\templates\widgets_test\index.html", "HTML", 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 40
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\test.html", "HTML", 0, 0, 0, 0, 0, 0, 71, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 85
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\widgets_test\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\widgets_test\admin.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\widgets_test\apps.py", "Python", 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\widgets_test\migrations\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\widgets_test\models.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\widgets_test\tests.py", "Python", 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\widgets_test\urls.py", "Python", 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\Tiboard\widgets_test\views.py", "Python", 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 12
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\pyvenv.cfg", "Properties", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\share\jupyter\kernels\python3\kernel.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14
+"c:\Users\sd23097\Desktop\Tirobot_works\Project_Tiboard\share\jupyter\kernels\python3\logo-svg.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 263, 0, 0, 0, 0, 0, 0, 1, 2, 266
+"c:\Users\sd23097\Desktop\Tirobot_works\README.md", "Markdown", 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3
+"c:\Users\sd23097\Desktop\Tirobot_works\Training\BunaiRobocon\ルール.md", "Markdown", 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 47
+"c:\Users\sd23097\Desktop\Tirobot_works\Training\Intro\README.md", "Markdown", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 14
+"c:\Users\sd23097\Desktop\Tirobot_works\Training\Intro\main\main.ino", "C++", 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19, 74
+"c:\Users\sd23097\Desktop\Tirobot_works\Training\Intro\main\myBLEController.cpp", "C++", 86, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 29, 116
+"c:\Users\sd23097\Desktop\Tirobot_works\Training\Intro\main\myBLEController.h", "C++", 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 13, 51
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\Sab.h", "C++", 197, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 247
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\honban3.c", "C", 0, 0, 914, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 41, 1005
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\2017_main3.c", "C", 0, 0, 152, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 31, 197
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\Mc.c", "C", 0, 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 11, 65
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\Mh.c", "C", 0, 0, 155, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 22, 190
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\S_UMX.h", "C++", 74, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 20, 107
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\cps_test.c", "C", 0, 0, 138, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 31, 171
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\DriverTemplate.h", "C++", 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 9, 48
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\S_UMX.h", "C++", 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 25, 134
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\benedettelli-nxt2wifi.h", "C++", 603, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 327, 140, 1070
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\codatech-rfid.h", "C++", 128, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 116, 48, 292
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\common-light.h", "C++", 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 17, 100
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\common-mmux.h", "C++", 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 14, 91
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\common-rs485.h", "C++", 143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 50, 282
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\common.h", "C++", 437, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 82, 689
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-compass.h", "C++", 218, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 59, 373
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-dlight.h", "C++", 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 83, 34, 209
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-flex.h", "C++", 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 47, 271
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-gps.h", "C++", 96, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 88, 40, 224
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-imu.h", "C++", 277, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 89, 503
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-nxtchuck.h", "C++", 202, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68, 50, 320
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-pressure.h", "C++", 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 76, 30, 141
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-temp.h", "C++", 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58, 23, 127
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-thermalir.h", "C++", 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 43, 195
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\dexterind-wifi.h", "C++", 337, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 81, 507
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\eeprom.h", "C++", 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 61, 26, 130
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\firgelli-linearact-ramping.h", "C++", 319, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 135, 95, 549
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\firgelli-linearact.h", "C++", 216, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 122, 70, 408
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-accelerometer.h", "C++", 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 27, 148
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-angle.h", "C++", 117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 54, 260
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-barometer.h", "C++", 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 27, 142
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-colour-v1.h", "C++", 138, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 115, 63, 316
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-colour-v2.h", "C++", 190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 135, 88, 413
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-compass.h", "C++", 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 44, 230
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-eopd.h", "C++", 53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 25, 165
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-force.h", "C++", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 13, 76
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-gyro.h", "C++", 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 33, 199
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-irlink-rcx.h", "C++", 168, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 147, 59, 374
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-irlink.h", "C++", 206, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 166, 64, 436
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-irrecv.h", "C++", 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 54, 22, 120
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-irseeker-v1.h", "C++", 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78, 32, 182
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-irseeker-v2.h", "C++", 264, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 100, 531
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-magfield.h", "C++", 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 39, 220
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-pir.h", "C++", 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 26, 127
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-protoboard.h", "C++", 151, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 146, 57, 354
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-sensormux.h", "C++", 226, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140, 79, 445
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-superpro.h", "C++", 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 45, 251
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\hitechnic-touchmux.h", "C++", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 12, 88
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\holitdata-motormux.h", "C++", 192, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 182, 82, 456
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\humarobotics-wifiblock.h", "C++", 569, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 302, 175, 1046
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\lego-energymeter.h", "C++", 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58, 18, 105
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\lego-light.h", "C++", 199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 119, 60, 378
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\lego-sound.h", "C++", 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 14, 89
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\lego-temp.h", "C++", 158, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 159, 66, 383
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\lego-touch.h", "C++", 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 43, 15, 82
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\lego-ultrasound.h", "C++", 81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 83, 42, 206
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\math-matrix.h", "C++", 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 152, 32, 284
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\maxim-max127.h", "C++", 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 45, 15, 82
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\microchip-mcp23008.h", "C++", 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 92, 30, 194
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\microinfinity-cruizcore.h", "C++", 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 61, 33, 158
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mightyboard.h", "C++", 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 18, 75
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindensors-servo.h", "C++", 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82, 36, 203
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-accelerometer.h", "C++", 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 66, 32, 166
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-angle.h", "C++", 55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 32, 143
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-hid.h", "C++", 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 66, 22, 177
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-imu.h", "C++", 116, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 48, 251
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-irdist.h", "C++", 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79, 45, 211
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-lightsensorarray.h", "C++", 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 30, 162
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-lineleader.h", "C++", 226, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 317, 98, 641
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-magicwand.h", "C++", 53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 57, 14, 124
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-motormux.h", "C++", 266, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 218, 93, 577
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-numericpad.h", "C++", 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 42, 183
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-nxtcam.h", "C++", 189, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148, 59, 396
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-pfmate.h", "C++", 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 66, 28, 152
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-powermeter.h", "C++", 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 86, 39, 194
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-pressure.h", "C++", 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 40, 209
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-ps2ctrl-v4.h", "C++", 184, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 106, 61, 351
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-rcxmotormux.h", "C++", 57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 49, 25, 131
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-rcxsensorsmux.h", "C++", 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 45, 17, 114
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-sensormux.h", "C++", 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 53, 27, 145
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-sumoeyes.h", "C++", 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 53, 18, 117
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-touchmux.h", "C++", 103, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 25, 191
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\mindsensors-touchpanel.h", "C++", 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 76, 30, 174
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\philips-pcf8574.h", "C++", 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 49, 22, 100
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\pid.h", "C++", 113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 25, 188
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\stats.h", "C++", 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58, 14, 104
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\timer.h", "C++", 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71, 22, 147
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\drivers\ultrasonic_UMX.h", "C++", 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12, 53
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\library.h", "C++", 188, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 36, 228
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\test.c", "C", 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 12
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\testM.c", "C", 0, 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 32
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\test_sub.h", "C++", 109, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 127
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\robocup 2017\test_trace.c", "C", 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 22
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\run2017.c", "C", 0, 0, 320, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 62, 39, 421
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\無題のフォルダ\Main.c", "C", 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 6, 56
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\無題のフォルダ\S_UMX.h", "C++", 113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 25, 152
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\無題のフォルダ\Sub.h", "C++", 252, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 40, 315
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\無題のフォルダ\Sub_0309.N.h", "C++", 251, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 41, 332
+"c:\Users\sd23097\Desktop\Tirobot_works\WRO2017\Lego-20250607T115704Z-1-001\Lego\無題のフォルダ\i2c.h", "C++", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 29
+"c:\Users\sd23097\Desktop\Tirobot_works\competition2\code.ipynb", "JSON", 0, 0, 0, 0, 0, 0, 0, 678, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 679
+"c:\Users\sd23097\Desktop\Tirobot_works\competition2\competition1.ipynb", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\kaggle\house price\house price with df.ipynb", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\kaggle\house price\house-prices-advanced-regression-techniques\profile_df.html", "HTML", 0, 0, 0, 0, 0, 0, 294572, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 294644
+"c:\Users\sd23097\Desktop\Tirobot_works\kaggle\house price\house2.ipynb", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\sd23097\Desktop\Tirobot_works\kaggle\titanic\titanic.ipynb", "JSON", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"Total", "-", 13818, 97, 1816, 1237, 2886, 40, 295339, 768, 108, 2172, 1622784, 173, 5, 781275, 253, 130, 8, 9189, 23798, 2755896

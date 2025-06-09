@@ -1,0 +1,14 @@
+detector:
+  ros__parameters:
+    interval_ms: 200
+    model_name: "yolov8m.pt"
+    trim_x_min: 110
+    trim_x_max: 518
+    trim_y_min: 225
+    trim_y_max: 445
+    purple_rb_threshold: 40
+    show_frame: false
+    center_x_min: 150
+    center_x_max: 250
+    center_y_min: 35
+    center_y_max: 135

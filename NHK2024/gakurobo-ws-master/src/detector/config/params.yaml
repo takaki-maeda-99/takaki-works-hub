@@ -1,0 +1,18 @@
+detector:
+  ros__parameters:
+    cluster_tolerance: 0.05
+    min_cluster_size: 10
+    normal_estimation_radius: 0.1
+    min_radius: 0.06
+    max_radius: 0.12
+    dot_threshold_for_line: 0.1
+    dot_threshold_for_circle: 0.5
+    normal_angle_threshold: 5.0
+
+filter:
+  ros__parameters:
+    count_duration: 10
+    count_threshold: 7
+    parallel_angle_threshold: 30.0
+    perpendicular_angle_threshold: 60.0
+    distance_threshold: 1.0

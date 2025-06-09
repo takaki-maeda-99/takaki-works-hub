@@ -1,0 +1,42 @@
+launch:
+  - arg:
+      name: "visualize"
+      default: "false"
+
+  - include:
+      file: "$(find-pkg-share urg_node2)/launch/urg_node2_2lidar.launch.py"
+
+  - node:
+      pkg: "merger"
+      exec: "merger"
+      param:
+        - from: $(find-pkg-share launch_bundle)/config/merger.yaml
+
+  - node:
+      pkg: "detector"
+      exec: "detector"
+      param:
+        - from: $(find-pkg-share launch_bundle)/config/detector.yaml
+      remap:
+        - from: "/pc2"
+          to: "/merged_pc2"
+
+  - node:
+      pkg: "detector"
+      exec: "filter"
+      param:
+        - from: $(find-pkg-share launch_bundle)/config/detector.yaml
+
+  - node:
+      pkg: "detector"
+      exec: "visualizer"
+      remap:
+        - from: "/obstacles"
+          to: "/filtered_obstacles"
+      if: "$(var visualize)"
+
+  - node:
+      pkg: rviz2
+      exec: rviz2
+      args: "-d $(find-pkg-share launch_bundle)/rviz/obstacles_visualization.rviz"
+      if: "$(var visualize)"

@@ -1,0 +1,10 @@
+detector:
+  ros__parameters:
+    interval_ms: 200
+    model_name: "yolov8m.pt"
+    trim_x_min: 0
+    trim_x_max: 0
+    trim_y_min: 0
+    trim_y_max: 0
+    purple_rb_threshold: 20
+    show_frame: true

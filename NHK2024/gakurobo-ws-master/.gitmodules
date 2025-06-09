@@ -1,0 +1,12 @@
+[submodule "src/sllidar_ros2"]
+	path = src/sllidar_ros2
+	url = https://github.com/Slamtec/sllidar_ros2.git
+[submodule "src/urg_node2"]
+	path = src/urg_node2
+	url = https://github.com/Hokuyo-aut/urg_node2.git
+[submodule "src/serial_bridge/include/MsgPacketizer"]
+	path = src/serial_bridge/include/MsgPacketizer
+	url = https://github.com/hideakitai/MsgPacketizer
+[submodule "src/serial"]
+	path = src/serial
+	url = https://github.com/RoverRobotics-forks/serial-ros2

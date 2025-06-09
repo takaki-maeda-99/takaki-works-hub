@@ -1,0 +1,18 @@
+merger:
+  ros__parameters:
+    interval_ms: 5
+    base_frame_id: "laser_1st"
+    second_frame_id: "laser_2nd"
+    third_frame_id: "laser_3rd"
+    first_flip_x: false
+    first_flip_y: false
+    second_translation_x: 0.0
+    second_translation_y: 0.0
+    second_rotation: 0.0
+    second_flip_x: false
+    second_flip_y: false
+    third_translation_x: 0.0
+    third_translation_y: 0.0
+    third_rotation: 0.0
+    third_flip_x: false
+    third_flip_y: false
