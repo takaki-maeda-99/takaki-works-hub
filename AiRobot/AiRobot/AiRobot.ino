@@ -80,40 +80,34 @@ struct RoboMasFeedback {
 volatile RoboMasFeedback m2006[8];  // M2006
 volatile RoboMasFeedback fb2[4];    // M3508
 
-void canReceive1(const CAN_message_t &msg) {
-  if (msg.id < 0x201 || msg.id > 0x208) return;
-  uint8_t idx = msg.id - 0x201;  // 0–7
-
-  uint16_t angle_raw = (msg.buf[0] << 8) | msg.buf[1];
-  int16_t speed_raw = (msg.buf[2] << 8) | msg.buf[3];
-  uint16_t curr = (msg.buf[4] << 8) | msg.buf[5];
-
-  // --- 多回転位置積算 -----------------------------
-  int16_t diff = int16_t(angle_raw) - int16_t(m2006[idx].last_raw);  // −8191…+8191
-  if (diff > 4096) diff -= 8192;                                     // wrap-around 補正
-  if (diff < -4096) diff += 8192;
-
-  m2006[idx].pos_cnt += diff;       // 積算
-  m2006[idx].last_raw = angle_raw;  // 更新
-  // -----------------------------------------------
-
-  m2006[idx].angle_raw = angle_raw;
-  m2006[idx].speed_raw = speed_raw;
-  m2006[idx].current_mA = curr;
-}
-
-void canReceive2(const CAN_message_t &msg) {
+void handleCAN(const CAN_message_t &msg,
+               volatile RoboMasFeedback *fb,
+               bool accumulate) {
   if (msg.id < 0x201 || msg.id > 0x208) return;
   uint8_t idx = msg.id - 0x201;  // 0–7
 
   uint16_t angle = (msg.buf[0] << 8) | msg.buf[1];
   int16_t speed = (msg.buf[2] << 8) | msg.buf[3];
-  uint16_t curr = (msg.buf[4] << 8) | msg.buf[5];
+  uint16_t curr  = (msg.buf[4] << 8) | msg.buf[5];
 
-  fb2[idx].angle_raw = angle;
-  fb2[idx].speed_raw = speed;
-  fb2[idx].current_mA = curr;
+  if (accumulate) {
+    // --- 多回転位置積算 -----------------------------
+    int16_t diff = int16_t(angle) - int16_t(fb[idx].last_raw);  // −8191…+8191
+    if (diff > 4096) diff -= 8192;                              // wrap-around 補正
+    if (diff < -4096) diff += 8192;
+
+    fb[idx].pos_cnt += diff;       // 積算
+    fb[idx].last_raw = angle;      // 更新
+    // -----------------------------------------------
+  }
+
+  fb[idx].angle_raw = angle;
+  fb[idx].speed_raw = speed;
+  fb[idx].current_mA = curr;
 }
+
+void canReceive1(const CAN_message_t &msg) { handleCAN(msg, m2006, true); }
+void canReceive2(const CAN_message_t &msg) { handleCAN(msg, fb2, false); }
 
 void printCANstatus() {
   for (int idx = 0; idx <= 6; idx++) {
