@@ -1,4 +1,7 @@
 #include <FlexCAN_T4.h>
+#include "simplePID.h"
+#include "DjiMotor.hpp"
+#include <IntervalTimer.h>
 
 ///////////////////////////////////////////////////  LCD  ////////////////////////////////////////////////////
 
@@ -17,6 +20,8 @@ struct Polar {
   float r;      // ベクトル長
   float theta;  // 角度 [rad]  [-π, π]
 };
+
+Polar pol;
 
 inline Polar xy2polar(int x, int y) {
   Polar p;
@@ -67,85 +72,68 @@ void checkSerial1Input() {
 FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> can1;
 FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> can2;
 
+DjiMotorCan1 dji1(can1);
+DjiMotorCan2 dji2(can2);
+
 constexpr float CNT2DEG_OUT = 360.0f / (8192.0f * 72.0f);  // 出力軸: 1 cnt → 0.00061 deg
 
-struct RoboMasFeedback {
-  uint16_t angle_raw;  // 0–8191   （エンコーダ生値）
-  int16_t speed_raw;   // [rpm]
-  int16_t current_mA;  // [mA]
-  uint16_t last_raw;   // 前回の生値 (0-8191)
-  int32_t pos_cnt;     // 積算カウント [motor側]  ±2 billion 以上余裕
-};
-
-volatile RoboMasFeedback m2006[8];  // M2006
-volatile RoboMasFeedback fb2[4];    // M3508
-
-void canReceive1(const CAN_message_t &msg) {
-  if (msg.id < 0x201 || msg.id > 0x208) return;
-  uint8_t idx = msg.id - 0x201;  // 0–7
-
-  uint16_t angle_raw = (msg.buf[0] << 8) | msg.buf[1];
-  int16_t speed_raw = (msg.buf[2] << 8) | msg.buf[3];
-  uint16_t curr = (msg.buf[4] << 8) | msg.buf[5];
-
-  // --- 多回転位置積算 -----------------------------
-  int16_t diff = int16_t(angle_raw) - int16_t(m2006[idx].last_raw);  // −8191…+8191
-  if (diff > 4096) diff -= 8192;                                     // wrap-around 補正
-  if (diff < -4096) diff += 8192;
-
-  m2006[idx].pos_cnt += diff;       // 積算
-  m2006[idx].last_raw = angle_raw;  // 更新
-  // -----------------------------------------------
-
-  m2006[idx].angle_raw = angle_raw;
-  m2006[idx].speed_raw = speed_raw;
-  m2006[idx].current_mA = curr;
-}
-
-void canReceive2(const CAN_message_t &msg) {
-  if (msg.id < 0x201 || msg.id > 0x208) return;
-  uint8_t idx = msg.id - 0x201;  // 0–7
-
-  uint16_t angle = (msg.buf[0] << 8) | msg.buf[1];
-  int16_t speed = (msg.buf[2] << 8) | msg.buf[3];
-  uint16_t curr = (msg.buf[4] << 8) | msg.buf[5];
-
-  fb2[idx].angle_raw = angle;
-  fb2[idx].speed_raw = speed;
-  fb2[idx].current_mA = curr;
-}
 
 void printCANstatus() {
   for (int idx = 0; idx <= 6; idx++) {
+    const auto fb = dji1.feedback(idx+1);
     Serial.printf("{1-%1u,%4u,%4d}",
                   idx + 1,
-                  m2006[idx].angle_raw,
-                  m2006[idx].speed_raw);
+                  fb.angleRaw,
+                  fb.speedRaw);
   }
   for (int idx = 0; idx <= 3; idx++) {
+    const auto fb = dji2.feedback(idx+1);
     Serial.printf("{2-%1u,%4u,%4d}",
                   idx + 1,
-                  fb2[idx].angle_raw,
-                  fb2[idx].speed_raw);
+                  fb.angleRaw,
+                  fb.speedRaw);
   }
   Serial.println();
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-inline float  wrap180(float deg)            { while (deg > 180) deg -= 360; while (deg < -180) deg += 360; return deg; }
+inline float  wrap180(float deg) { while (deg > 180) deg -= 360; while (deg < -180) deg += 360; return deg; }
+
+// PID
+//SimplePID(kp, ki, kd, outMin, outMax, sampleMs)
+
+#define Kp_a 500
+#define Ki_a 0
+#define Kd_a 0
+#define outMin_a -13000
+#define outMax_a 13000
+#define sampleMs_a 10
+
+#define Kp_s 25
+#define Ki_s 0
+#define Kd_s 0
+#define outMin_s -10000
+#define outMax_s 10000
+#define sampleMs_s 1
+
+SimplePID pidAngle11(Kp_a,Ki_a,Kd_a,outMin_a,outMax_a,sampleMs_a);
+SimplePID pidSpeed11(Kp_s,Ki_s,Kd_s,outMin_s,outMax_s,sampleMs_s);
+
+
+IntervalTimer m2006Timer;
+
+int target = 0;
+
+void m2006ISR(){
+  const auto &fb = dji1.feedback(1);
+  int cmd1 = pidAngle11.compute(wrap180(fb.positionCnt*CNT2DEG_OUT), pol.theta);
+  int cmd = pidSpeed11.compute(fb.speedRaw, cmd1);
+  dji1.sendCurrent(1, cmd);
+  dji1.flush();
+}
 
 void setup() {
-  can1.begin();
-  can1.setBaudRate(1'000'000);
-  can1.enableMBInterrupt(MB1);
-  can1.onReceive(MB1, canReceive1);
-
-  can2.begin();
-  can2.setBaudRate(1'000'000);
-  can2.enableMBInterrupt(MB2);
-  can2.onReceive(MB2, canReceive2);
-
   // led
   pinMode(13, OUTPUT);
 
@@ -156,6 +144,10 @@ void setup() {
   // usb serial
   Serial.begin(115200);
   Serial.setTimeout(10);
+
+  m2006Timer.begin(m2006ISR, 1000);          // 1000 µs = 1 kHz
+  m2006Timer.priority(128);                  // (0=最高, 255=最低) デフォ 128
+
 }
 
 void loop() {
@@ -164,7 +156,16 @@ void loop() {
   // serial input
   checkSerial1Input();
 
-  Polar pol = xy2polar(controller_input.L_x, controller_input.L_y);
+  pol = xy2polar(controller_input.L_x, controller_input.L_y);
+
+  const auto &fb = dji1.feedback(1);
+  static char buf[17];
+  snprintf(buf, sizeof(buf), "%8d%8d",
+  //          controller_input.L_x,
+  //          controller_input.L_y,
+              fb.positionCnt,
+              int(wrap180(fb.positionCnt*CNT2DEG_OUT)));
+  lcd.setCursor(0, 0); lcd.print(buf);
 
   // LCD monitor
   // static char buf[17];
@@ -177,58 +178,8 @@ void loop() {
   // lcd.setCursor(0, 1);  lcd.print(buf);
 
 
-  /* ---- ② 現在の出力角度を取得 ---- */
-  float cur_deg;
-  noInterrupts();  // 読み取り中に割込みで書き替えられないようガード
-  cur_deg = m2006[0].pos_cnt*CNT2DEG_OUT;
-  interrupts();
+  // lcd.setCursor(0, 0); lcd.print(buf);
 
-
-  constexpr float KP = 20.0f;
-  constexpr float KI = 1.0f;
-  constexpr float KD = 0.05f;
-  constexpr int16_t CUR_LIM = 10000;  // 0.01 A/LSB → ≒±80 A (ESC仕様で制限)
-
-  /* ---- ③ 誤差 (±180°) ---- */
-  float err_deg = pol.theta - cur_deg;
-  if (err_deg > 180) err_deg -= 360;
-  if (err_deg < -180) err_deg += 360;
-
-
-  static float i_err = 0.0f;
-
-  if(abs(err_deg) < 1) i_err = 0;
-
-  if(abs(err_deg) < 100) i_err += err_deg;
-  i_err = constrain(i_err, -CUR_LIM / KI, CUR_LIM / KI);
-
-  static float prev_err = 0.0f;
-
-  float d_err = err_deg - prev_err;
-  prev_err = err_deg;
-
-  int16_t i_cmd = int16_t(KP * err_deg + KI * i_err);
-  i_cmd = constrain(i_cmd, -CUR_LIM, CUR_LIM);
-
-  /* ---- ⑤ CAN フレーム送信 ---- */
-  CAN_message_t tx{};
-  tx.id = 0x200;
-  tx.len = 8;
-  tx.buf[0] = i_cmd >> 8;
-  tx.buf[1] = i_cmd & 0xFF;   // Motor1
-  tx.buf[2] = tx.buf[3] = 0;  // Motor2
-  tx.buf[4] = tx.buf[5] = 0;  // Motor3
-  tx.buf[6] = tx.buf[7] = 0;  // Motor4
-  can1.write(tx);
-
-  static char buf[17];
-  snprintf(buf, sizeof(buf), "%8f%8f%",
-           cur_deg,
-           pol.theta);
-
-  lcd.setCursor(0, 0);  lcd.print(buf);
-
-  lcd.setCursor(0, 1); lcd.print(i_cmd);
 
   delay(1);
 }
