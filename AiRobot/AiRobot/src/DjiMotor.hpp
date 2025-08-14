@@ -117,7 +117,7 @@ public:
     }
 
     void poll(const CAN_message_t &msg) {
-        if (msg.id < 0x201 || msg.id > 0x208) return 0; // 非対象
+        if (msg.id < 0x201 || msg.id > 0x208) return; // 非対象
 
         const uint8_t idx = msg.id - 0x201;                  // 0–7
         const uint16_t ang  = (msg.buf[0] << 8) | msg.buf[1];
@@ -165,8 +165,9 @@ public:
         _self = this;
         bus_.begin();
         bus_.setBaudRate(1'000'000);
-        bus_.enableMBInterrupt(MB2);
-        bus_.onReceive(MB2, isr);
+        bus_.enableFIFO();
+        bus_.enableFIFOInterrupt();
+        bus_.onReceive(isr);
     }
 
     void sendCurrent(uint8_t motorId, int16_t currentCmd) {
@@ -193,7 +194,7 @@ public:
     }
 
     void poll(const CAN_message_t &msg) {
-        if (msg.id < 0x201 || msg.id > 0x208) return 0; // 非対象
+        if (msg.id < 0x201 || msg.id > 0x208) return; // 非対象
         const uint8_t idx = msg.id - 0x201;
         const uint16_t ang  = (msg.buf[0] << 8) | msg.buf[1];
         const int16_t  rpm  = (msg.buf[2] << 8) | msg.buf[3];
@@ -206,7 +207,6 @@ public:
         fb_[idx].angleRaw     = ang;
         fb_[idx].speedRaw     = rpm;
         fb_[idx].current      = curr;
-        return idx + 1;
     }
 
     const DjiFeedback &feedback(uint8_t motorId) const { return fb_[motorId - 1]; }
