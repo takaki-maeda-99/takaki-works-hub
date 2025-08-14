@@ -141,6 +141,23 @@ public:
      */
     const DjiFeedback &feedback(uint8_t motorId) const { return fb_[motorId - 1]; }
 
+    /**
+     * @brief モータの角度をリセット（ホーミング用）
+     * @param motorId モータID (1-8)
+     * @param resetAngleDeg リセット後の角度 [度]
+     */
+    void resetAngle(uint8_t motorId, float resetAngleDeg) {
+        if (motorId < 1 || motorId > 8) return;
+        const uint8_t idx = motorId - 1;
+        
+        // 度をエンコーダカウントに変換
+        const float CNT2DEG_OUT = 360.0f / (8192.0f * 72.0f);
+        int32_t resetCnt = resetAngleDeg / CNT2DEG_OUT;
+        
+        // 現在のエンコーダ値を基準に積算位置を調整
+        fb_[idx].positionCnt = resetCnt;
+    }
+
 private:
     FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> &bus_;
     CAN_message_t txFrame_[2];   //!< 0x200 / 0x1FF 用
@@ -210,6 +227,19 @@ public:
     }
 
     const DjiFeedback &feedback(uint8_t motorId) const { return fb_[motorId - 1]; }
+
+    /**
+     * @brief モータの角度をリセット（ホーミング用）
+     */
+    void resetAngle(uint8_t motorId, float resetAngleDeg) {
+        if (motorId < 1 || motorId > 8) return;
+        const uint8_t idx = motorId - 1;
+        
+        const float CNT2DEG_OUT = 360.0f / (8192.0f * 72.0f);
+        int32_t resetCnt = resetAngleDeg / CNT2DEG_OUT;
+        
+        fb_[idx].positionCnt = resetCnt;
+    }
 
 private:
     FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> &bus_;
