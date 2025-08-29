@@ -2,15 +2,14 @@
 #include "simplePID.h"
 #include "DjiMotor.hpp"
 #include <IntervalTimer.h>
-#include "indicator.hpp"
 #include "controller.hpp"
 #include "MathUtil.hpp"
 
 FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> can1;
 FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> can2;
 
-DjiMotorCan1 dji2(can1);
-DjiMotorCan2 dji1(can2);
+DjiMotorCan dji2(can1);
+DjiMotorCan dji1(can2);
 
 DjiFeedback fb1[8];
 DjiFeedback fb2[8];
@@ -152,7 +151,7 @@ void performHoming(int motor_id) {
         Serial.printf("*** Motor %d HOMED at %.1f degrees ***\n", motor_id + 1, initial_deg);
     } else {
         // どちらかのLSがOFFの場合、速度PIDで低速回転
-        const float homing_rpm = 1000.0f; // ホーミング速度 [rpm]
+        const float homing_rpm = 3000.0f; // ホーミング速度 [rpm]
         int16_t homingCmd = SteerPidSpeed[motor_id].compute(current_fb.speedRaw, homing_rpm);
         dji1.sendCurrent(motor_id + 1, homingCmd);
     }
@@ -239,6 +238,21 @@ void m2006ISR(){
 
 }
 
+void homing() {
+  for(int time = 0; time < 1000; time++){
+    dji.sendCurrent(1, 1500);
+    dji.sendCurrent(2, -1000);
+    dji.sendCurrent(3, 1000);
+    dji.flush();  // 指令を送信
+    delay(1);  // 少し待機
+  }
+  for(int id = 1; id <= 3; id++){
+    dji.sendCurrent(id, 0);  // ホーミング完了後は停止指令
+    dji.resetAngle(id, 0);  // ホーミング完了後は角度リセット
+  }
+}
+
+
 void setup() {
   // led
   pinMode(13, OUTPUT);
@@ -252,9 +266,6 @@ void setup() {
   pinMode(LSPIN32, INPUT_PULLUP);
   pinMode(LSPIN41, INPUT_PULLUP);
   pinMode(LSPIN42, INPUT_PULLUP);
-
-  lcd.begin(16,2);
-  lcdPrintLine(0,"Hello world.");
 
   // usb serial
   Serial.begin(115200);
@@ -296,10 +307,6 @@ void loop() {
     // serial input
     checkSerial1Input();
     
-    lcdPrintLine(1,"%4d%4d%8d",
-                controller_input.L_x,
-                controller_input.L_y,
-                controller_input.R_x);
   } else {
     // ホーミング中表示
     static int homing_counter = 0;
